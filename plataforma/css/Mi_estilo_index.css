@@ -1,0 +1,30 @@
+/*Primer parrafo de texto de la hoja*/
+body {
+
+        text-align: center;
+        font-family: "Roboto", sans serif;
+        font-size-adjust:0.5;
+        background-color: #EBEEFC; 
+
+  
+}
+
+
+#div_inicio
+{
+    color: #00B8D5;
+    text-align: left;
+   position:relative;  
+   top:150px;
+   left:10%;
+   width: 80%;
+    padding-left: 10%;
+  padding-right: 10%;
+}
+
+#div_central
+{
+ position:relative;   
+ top:30%;
+
+}

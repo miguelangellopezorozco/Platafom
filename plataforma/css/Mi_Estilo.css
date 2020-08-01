@@ -1,0 +1,281 @@
+
+ 
+/* seccion para la cabecera    */
+
+#principal 
+{
+    
+  width: 102%;
+    height: 90px;
+ background: #2B337C;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;   
+    min-width: 100%;
+}
+
+
+/*NOMBRE DE LA PAGINA*/
+
+
+#titulo
+{
+    font-size: 2em;
+    font-weight: bold;
+    line-height: 40%;
+    height: auto;
+    width: auto;
+    text-align: left;
+    color: white;
+    position: absolute;
+    top:-20%;
+    left:45%;
+ 
+
+     
+     
+} 
+/*Aqui esta el logo de android*/
+
+#imagen
+ {
+     position: absolute;
+     height:80px;
+     width: 160px;
+     left:10px;
+    
+ }
+ 
+  #logo
+ {
+     position: absolute;
+     height:80px;
+     width: 160px;
+     left:10px;
+    
+ }
+ 
+
+a
+{
+        color: white;
+        text-decoration: none; 
+       position: relative;
+}
+ 
+
+
+#Sign_in_section 
+{
+   
+    font-size: 100%;
+    font-weight: bold;
+    line-height: 35px;
+    width: 15%;
+    height: 45%;
+    border-radius:15px;
+    text-align:center;
+    position: relative;
+    left:81%;
+    border-color:black;
+    border-style: solid;
+}
+
+#Sign_in_section:hover
+{
+       background-color:  #04CEBC;
+}
+#mensaje_de_error
+{ 
+  position:absolute;
+  top:8%;
+  left:35%;
+}
+/*--------------------------------------------------------------------*/
+#menu
+{
+   
+    width: 54px;
+    height: 55%;
+    text-align: center; 
+    position: inherit;
+    right:80px;
+    top:15px;
+}
+
+#usuario
+{
+ font-size: 17px;
+  font-weight: bold;
+}
+
+
+#menu li:hover
+{
+  background-color:  #04CEBC;
+}
+
+
+#menu li 
+{
+     background: #2B337C;
+      display:inline-block;
+      width:58px;
+      height:30px;
+      padding:5px 13px;
+      text-align:center;
+      position:relative;
+      border-radius: 0px;
+/*Con el z index se puede colocar al frente o atras ciertos elementos*/
+      z-index: 3;
+}
+
+#menu li>ul
+{
+display: none;    
+}
+
+#menu li:hover>ul 
+{
+      display:block;
+      position:absolute;
+      top:30px;
+      right: 0%;
+}
+
+
+
+
+#inicio_dir 
+{
+ font-size: 17px;
+   bottom:15px;
+  left:0%;
+}
+
+
+#Signup
+{
+font-size: 17px;
+bottom:15px;
+right:10px;  
+text-align: center;
+}
+
+
+#salir
+{
+font-size: 17px;
+bottom:15px;
+left:0%;
+
+}
+
+/*-------------------------------------------------------------------*/
+
+
+#barra_navegacion
+{
+    text-align: center; 
+    position: absolute;
+    top:74px;
+    left: -55px;
+    width: 55%;
+    font-weight: bold;
+}
+
+
+
+@media (max-width:800px)
+{
+
+}
+
+#barra_navegacion li:hover
+{
+  background-color:  #04CEBC;
+}
+
+
+#barra_navegacion li 
+{
+     background: #2B337C;
+      display:inline-block;
+      width:100%;
+      height:35px;
+      padding:9px 20px;
+      text-align:center;
+      position:relative;
+      border-radius: 0px;
+}
+
+
+#barra_navegacion li>ul
+{
+display: none;    
+}
+
+#barra_navegacion li:hover>ul 
+{
+      display:block;
+      position:absolute;
+      top:30px;
+      left: -80px;
+       width:100%;
+}
+#Equipos
+{
+    right: 15PX;
+}
+
+/*--------------------------------------------------------------------------*/
+
+#barra_navegacion_2
+{
+    text-align: center; 
+    width:50%;
+    position: relative;
+    font-weight: bold;
+}
+
+
+
+
+#barra_navegacion_2 li:hover
+{
+  background-color:  #04CEBC;
+}
+
+
+#barra_navegacion_2 li 
+{
+     background: #2B337C;
+      display:inline-block;
+      width:100%;
+      height:35px;
+      padding:9px 20px;
+      text-align:center;
+      position:relative;
+      border-radius: 0px;
+}
+
+
+#barra_navegacion_2 li>ul
+{
+display: none;    
+}
+
+#barra_navegacion_2 li:hover>ul 
+{
+      display:block;
+      position:absolute;
+      top:30px;
+      left: -80px;
+       width:100%;
+}
+#Etiquetas
+{
+    left: 25PX;
+}
+/*--------------------------------------------------------------------------------------------------*/
